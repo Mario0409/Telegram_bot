@@ -94,11 +94,7 @@ async def trigger_summary(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
 def main() -> None:
     """Start the bot."""
-<<<<<<< HEAD
-    application = Application.builder().token("TOKEN").build()  # Replace with your bot token
-=======
     application = Application.builder().token("ADD TOKEN").build()  # Replace with your bot token
->>>>>>> origin/master
 
     # On different commands - answer in Telegram
     application.add_handler(CommandHandler("start", start))
